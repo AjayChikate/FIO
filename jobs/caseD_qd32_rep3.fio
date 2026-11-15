@@ -1,0 +1,16 @@
+[global]
+ioengine=libaio
+direct=1
+size=1g
+runtime=45
+time_based=1
+ramp_time=5
+group_reporting=1
+filename=/home/chikate_ajay/fio-lab10/db-test.bin
+percentile_list=50:95:99
+
+[database-workload]
+rw=read
+bs=256k
+iodepth=32
+numjobs=1

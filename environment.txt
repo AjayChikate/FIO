@@ -1,0 +1,28 @@
+Date: 2026-11-15T16:36:35+05:30
+FIO version: fio-3.28
+Kernel: Linux LAPTOP-18MGHS6I 6.18.58.1-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Tue Oct 27 00:24:11 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+OS release:
+PRETTY_NAME="Ubuntu 22.04.2 LTS"
+NAME="Ubuntu"
+VERSION_ID="22.04"
+VERSION="22.04.2 LTS (Jammy Jellyfish)"
+VERSION_CODENAME=jammy
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=jammy
+
+CPU model: 12th Gen Intel(R) Core(TM) i7-12650H
+Logical CPUs: 16
+Memory: 7.6 GiB
+
+Filesystem space for lab directory:
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdd       1007G  5.5G  951G   1% /
+
+FIO engine: libaio
+Test file: /home/chikate_ajay/fio-lab10/db-test.bin (1 GiB)
+Runtime: 45 seconds; ramp time: 5 seconds; repetitions: 3
